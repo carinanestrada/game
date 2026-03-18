@@ -1,4 +1,4 @@
-* { 
+* {
     background-color: rgb(229, 215, 255);
     font-size: 40px;
     /* font-family: ; */
@@ -9,45 +9,66 @@
     position: relative;
     width: 15%;
     margin: 5%;
-    }
+}
+
+
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
     
-    /* Make the image responsive */
-    .container img {
-    width: 100%;
-    height: auto;
-    }
-    
-    /* Style the button and place it in the middle of the container/image */
-    .container .btn {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
-    }
-    
-    .container .btn:hover {
+}
+
+.container .btn:hover {
     background-color: black;
-    }
+}
+
 
 .racing-chickens {
-    display: flex;
-    grid-auto-flow: row;
-    width:15%;
-    margin:5%;
+    width: 15%;
+    margin: 5%;
 }
 
-#finish {
-    display: flex;
-    height: 300px;
-    float: right;
-}
+
 .race {
+    display: grid;
     border-width: 4px;
+    border-color: aqua;
+    border-style: solid;
 }
+
+.racing-chicken1{
+    border-width: 4px;
+    border-color: rgb(228, 107, 107);
+    border-style: solid;
+  /* Defines 3 columns with equal width (1 fraction) */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Defines a single row with a height of 100px */
+  grid-template-rows: 100px;
+  gap: 10px; /* Adds space between items */
+}
+.racing-chicken2{
+    border-width: 4px;
+    border-color: rgb(228, 107, 107);
+    border-style: solid;
+  /* Defines 3 columns with equal width (1 fraction) */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Defines a single row with a height of 100px */
+  grid-template-rows: 100px;
+  gap: 10px; /* Adds space between items */
+}
+
+.line {
+    z-index: -1;
+    border-width: 4px;
+    border-color: rgb(31, 157, 9);
+    border-style: solid;
+    float: inline-end;
+    height: 280px;
+}
+
