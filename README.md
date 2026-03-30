@@ -13,8 +13,7 @@ README.md: Project info, resources, and a short code explanation block.
 
 Tech Requirements (Minimum Acceptance Criteria)
 
-Repository & Deployment One repo, deployed to GitHub Pages from the main branch root.
-Directory layout:
+Repository & Deployment One repo, deployed to GitHub Pages from the main branch root. Directory layout:
 
 /(root) index.html /scripts (JS modules) /styles (CSS) /images (assets, wireframes, screenshots) /pages (optional) README.md README.md includes: project name, date, game objective, brief rules, tech used, resource links, and one code snippet explained with triple backticks.
 
@@ -42,13 +41,11 @@ WAVE Accessibility checker (constructed URL to your deployed page)
 
 ✅ Validation links should point directly at your deployed page.
 
-Bootstrap 5 (no jQuery required) Use at least two Bootstrap components with appropriate classes and data attributes (where applicable):
-Required component: Navbar
+Bootstrap 5 (no jQuery required) Use at least two Bootstrap components with appropriate classes and data attributes (where applicable): Required component: Navbar
 
 Choose at least one more: Cards, Modal, Offcanvas, Toast, Collapse/Accordion, Progress, Buttons/Badges Initialize with data attributes when possible (JS init allowed but explain why in comments).
 
-CSS One custom stylesheet (e.g., /styles/game.css).
-Import a Google Font and use it.
+CSS One custom stylesheet (e.g., /styles/game.css). Import a Google Font and use it.
 
 Use at least two advanced selectors: nth-child, attribute selector, adjacent/child/sibling combinators, or pseudo-classes.
 
@@ -58,8 +55,7 @@ Include a reduced-motion friendly animation or transition (respect prefers-reduc
 
 Define at least three CSS custom properties (--color-*, --spacing, etc.) and use them.
 
-JavaScript (modern, modular) Use ES modules: at least two modules (e.g., game.js, storage.js).
-Data container: an array of objects representing game items (cards/questions/tiles/etc.). Use it to render the board/UI dynamically (DOM templating).
+JavaScript (modern, modular) Use ES modules: at least two modules (e.g., game.js, storage.js). Data container: an array of objects representing game items (cards/questions/tiles/etc.). Use it to render the board/UI dynamically (DOM templating).
 
 Randomization: shuffle or randomize something each new game (order, options, layout).
 
@@ -79,8 +75,7 @@ Theme/setting/preference Use either document.cookie or sessionStorage/localStora
 
 Reset: a control that clears round state and re-initializes the game.
 
-Form + Client-Side Validation Include a small Settings / Player form (name, difficulty, theme, etc.).
-Use the Constraint Validation API (e.g., required, pattern, min/max) and show friendly inline errors.
+Form + Client-Side Validation Include a small Settings / Player form (name, difficulty, theme, etc.). Use the Constraint Validation API (e.g., required, pattern, min/max) and show friendly inline errors.
 
 On submit:
 
@@ -90,8 +85,7 @@ Save preferences to cookie/session/local storage
 
 Apply settings live (e.g., difficulty changes tiles; theme toggles class)
 
-Accessibility & Quality Pass Nu (no errors; weird warnings OK if explained) and fix obvious issues (unclosed tags, nesting, missing attrs).
-Pass WAVE with no errors and address contrast/labels/alt text.
+Accessibility & Quality Pass Nu (no errors; weird warnings OK if explained) and fix obvious issues (unclosed tags, nesting, missing attrs). Pass WAVE with no errors and address contrast/labels/alt text.
 
 Keyboard operable: tab through interactive elements; visible focus outline.
 
@@ -101,8 +95,7 @@ Ensure color contrast meets WCAG AA (use BS utilities or your own tokens).
 
 Adaptive Area
 
-RESERVED for any areas to focus on once I grade ALFA PROJECTS.
-Issue-Based Exceptions (Optional) If you’re blocked by scope, you may omit up to two minor requirements (not the core gameplay or storage/validation) with a documented GitHub Issue:
+RESERVED for any areas to focus on once I grade ALFA PROJECTS. Issue-Based Exceptions (Optional) If you’re blocked by scope, you may omit up to two minor requirements (not the core gameplay or storage/validation) with a documented GitHub Issue:
 
 In code, add a comment where the omitted feature would go.
 
@@ -173,3 +166,4 @@ Categorize by Drag/Drop: drag items into correct bins; score increments on corre
 Quiz/Flashcards: multiple-choice from a data array; randomized order; show correctness feedback; track streak.
 
 Reaction/Reflex: random “go” signal; measure response time; keep best time in storage
+

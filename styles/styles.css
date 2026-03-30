@@ -37,38 +37,43 @@
 
 .race {
     display: grid;
-    border-width: 4px;
-    border-color: aqua;
-    border-style: solid;
+    gap: 20px;
+    border: 4px solid aqua;
+    padding: 20px;
+    position: relative;
+    min-height: 340px;
+    overflow: hidden;
+    background: #f9f9ff;
 }
 
-.racing-chicken1{
-    border-width: 4px;
-    border-color: rgb(228, 107, 107);
-    border-style: solid;
-  /* Defines 3 columns with equal width (1 fraction) */
-  grid-template-columns: 1fr 1fr 1fr;
-  /* Defines a single row with a height of 100px */
-  grid-template-rows: 100px;
-  gap: 10px; /* Adds space between items */
+.race-row {
+    position: relative;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    border: 2px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.75);
 }
-.racing-chicken2{
-    border-width: 4px;
-    border-color: rgb(228, 107, 107);
-    border-style: solid;
-  /* Defines 3 columns with equal width (1 fraction) */
-  grid-template-columns: 1fr 1fr 1fr;
-  /* Defines a single row with a height of 100px */
-  grid-template-rows: 100px;
-  gap: 10px; /* Adds space between items */
+
+.racing-chicken {
+    width: 140px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.racing-chicken1,
+.racing-chicken2 {
+    border: 4px solid rgb(228, 107, 107);
 }
 
 .line {
-    z-index: -1;
-    border-width: 4px;
-    border-color: rgb(31, 157, 9);
-    border-style: solid;
-    float: inline-end;
-    height: 280px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 100%;
+    width: auto;
+    z-index: 0;
+    opacity: 0.85;
 }
 
