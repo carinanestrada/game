@@ -38,7 +38,7 @@ function addClick() {
     clickCountDisplay.textContent = clicks;
 
     const move1 = getRandomMove(10, 30);
-    const move2 = getRandomMove(5, 25);
+    const move2 = getRandomMove(10, 30);
 
     position1 += move1;
     position2 += move2;
