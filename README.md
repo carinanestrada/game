@@ -31,7 +31,7 @@ function getRandomMove(min, max) {
 
 - Maybe adding sound effects? Or perhaps a dark theme.
 
-The wireframe is attached below:
+The wireframe is attached here:
 <img width="494" height="409" alt="image" src="https://github.com/user-attachments/assets/66fa62f4-5fae-4e93-aa76-6b2268245c1c" />
 
 
